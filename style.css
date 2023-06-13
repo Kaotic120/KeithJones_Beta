@@ -1,15 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
 
+  margin-top:10px;
+  margin-right:350px;
   
+  margin-left:350px;
    color:black;
-  background-Color:lightblue;
-  
+  background-Color:lightblue; 
 
 }
 
-h1{  
-  color:Black; background-Color:yellow;
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient
+  (rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+  url(Images/logo6_11_23424.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+h1{
+  color:Black; 
+  color:rgb(211, 233, 13); 
   text-decoration: underline;
   text-align: center;
+  margin-right: 350;
   
 }
