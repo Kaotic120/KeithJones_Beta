@@ -6,10 +6,10 @@
 body{
 
   margin-top:10px;
-  margin-right:350px;
+  margin-right:50px;
   
-  margin-left:350px;
-   color:black;
+  margin-left:50px;
+   color:yellow;
   background-Color:blue; 
 
 }
@@ -18,7 +18,7 @@ body{
   min-height: 100vh;
   width: 100%;
  background-image: 
-  url(logo6_11_23424.jpeg);
+  url(https://us.123rf.com/450wm/rolffimages/rolffimages1905/rolffimages190500353/123159342-space-fractal-super-nova-and-time-spirals.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
