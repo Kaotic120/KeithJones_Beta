@@ -20,12 +20,20 @@ body{
 
 
 
-h1{
-  color:Black; 
+.body #bt{
+  
   color:rgb(211, 233, 13); 
   text-decoration: underline;
-  text-align: center;
+  text-align: left;
+  
   margin-right: 350;  
+}
+ 
+#message
+{
+    color:rgb(241, 245, 12);
+    font: size 24 px;;
+
 }
 
 
@@ -37,7 +45,7 @@ h1{
     border:none;
     outline:none;
     border-radius: 20px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
     text-align: center;
@@ -49,6 +57,31 @@ h1{
     color:  rgb(143, 32, 143) ;
 }
 .action_btn:active
+{
+    scale: 0.85;
+}
+
+
+.action_btn2
+{
+    background-color: aqua;
+    color: rgb(143, 32, 143) ;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2rem;
+}
+.action_btn2:hover
+{
+    scale:1.05;
+    color:  rgb(143, 32, 143) ;
+}
+.action_btn2:active
 {
     scale: 0.85;
 }
