@@ -20,12 +20,12 @@ body{
 
 
 
-.body #bt{
+#bt{
   
   color:rgb(211, 233, 13); 
   text-decoration: underline;
   text-align: left;
-  
+  font-size: 4rem;
   margin-right: 350;  
 }
  
@@ -48,7 +48,7 @@ body{
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
-    text-align: center;
+    text-align: left;
     margin-top: 2rem;
 }
 .action_btn:hover
